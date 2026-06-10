@@ -1,0 +1,77 @@
+2D Graphics Editor in C
+
+Write a complete C program for a menu-driven 2D Graphics Editor using ASCII graphics on a console canvas.
+
+Requirements:
+
+1. Create a canvas of size 40 rows × 80 columns using a 2D character array.
+
+2. Initialize the canvas with '_' characters.
+
+3. Support the following shapes:
+
+   * Rectangle
+   * Line
+   * Triangle
+   * Circle
+
+4. Use:
+
+   * Enum for shape types.
+   * Structure to store shape information.
+   * Array of structures to store multiple objects.
+   * Unique ID for every object.
+
+5. Implement drawing functions:
+
+   * drawRectangleCanvas()
+   * drawLineCanvas() using Bresenham Line Algorithm
+   * drawTriangleCanvas()
+   * drawCircleCanvas() using Midpoint Circle Algorithm
+
+6. Implement object management:
+
+   * Add Rectangle
+   * Add Line
+   * Add Triangle
+   * Add Circle
+   * List Objects
+   * Delete Object by ID
+   * Modify Object by ID
+   * Redraw Canvas after every modification
+
+7. Display all shapes on the canvas using '*' characters.
+
+8. Implement helper functions:
+
+   * initializeCanvas()
+   * displayCanvas()
+   * plot()
+   * drawShape()
+   * redrawCanvas()
+   * findShape()
+
+9. Create a menu-driven interface:
+
+   ===================================
+   2D GRAPHICS EDITOR
+   ==================
+
+   1. Add Rectangle
+   2. Add Line
+   3. Add Triangle
+   4. Add Circle
+   5. Display Canvas
+   6. List Objects
+   7. Delete Object
+   8. Modify Object
+   9. Exit
+
+10. Follow good coding practices:
+
+    * Proper indentation
+    * Meaningful function names
+    * Comments for each section
+    * Modular design
+
+Output should be a complete compilable C program using standard libraries only.
